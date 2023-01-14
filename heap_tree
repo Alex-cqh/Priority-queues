@@ -1,0 +1,11 @@
+graph {
+	A [label=Root]
+	B [label="Left Child"]
+	C [label="Right Child"]
+	D [label="Left Grandchild"]
+	E [label="Right Grandchild"]
+	A -- B
+	A -- C
+	B -- D
+	B -- E
+}
